@@ -10,7 +10,7 @@ router.get("/", async (req, res) => {
   try {
     res.json({
       status: "ok",
-      message: "Your express app is running fine , Hola :)",
+      message: "Your Exam app is running fine , Hola :)",
     });
   } catch (error) {
     console.error(error);
